@@ -1,0 +1,23 @@
+name: ad_hoc_ident_nfc_scanner_flutter_nfc_kit
+description: "Provides a framework to extract identifiers from NFC tags and MRZ documents."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_nfc_scanner_flutter_nfc_kit
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_nfc_scanner_flutter_nfc_kit
+
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_nfc_kit: ^3.5.2
+  uuid: ^4.4.2
+  ad_hoc_ident: ^0.0.1-preview-1
+  ad_hoc_ident_nfc: ^0.0.1-preview-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
